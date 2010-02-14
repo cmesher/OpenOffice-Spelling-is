@@ -1,0 +1,70 @@
+SET UTF-8
+TRY nairesðtuglmkfhvoþábíibpúéóxýæzwcqNAIRESTUGLMKFHVOÞÁBÍIBPÚEÓXÝÆZWCQ
+LANG is_IS
+
+
+#Útskiptingar á stöfum
+MAP 4
+MAP oö
+MAP eé
+MAP tþ
+MAP dð
+
+#Algengt stafarugl
+REP 6
+REP é je
+REP je é
+REP ý í
+REP í ý
+REP y i
+REP i y
+
+#Greinir og beygingarform fyrir karlkyns nafnorð
+SFX A Y 26
+SFX A ur 0 ur
+SFX A ur i ur
+SFX A ur s ur
+SFX A 0 inn ur
+SFX A ur inn ur
+SFX A ur num ur
+SFX A ur inum ur
+SFX A ur sins ur
+SFX A ur ar ur
+SFX A ur a/UW ur
+SFX A ur um ur
+SFX A ur arnir ur
+SFX A ur ana ur
+SFX A ur unum ur
+SFX A ur anna ur
+SFX A i a i
+SFX A i ann i
+SFX A i anum i
+SFX A i ans i
+SFX A i ar i
+SFX A i arnir i
+SFX A i ana i
+SFX A 0 nn i
+SFX A 0 inn [^n]
+SFX A r 0 ir
+SFX A r s ir
+
+#Greinir og beygingarform fyrir kvenkyns nafnorð
+SFX B Y 9
+SFX B 0 ar .
+SFX B 0 in .
+SFX B 0 ina .
+SFX B 0 inni .
+SFX B 0 innar .
+SFX B 0 ir .
+SFX B 0 um .
+SFX B 0 a .
+SFX B 0 irnar .
+
+#Greinir og beygingarform fyrir hvorugkyns nafnorð
+SFX C Y 6
+SFX C 0 ið .
+SFX C 0 i .
+SFX C 0 s .
+SFX C 0 inu .
+SFX C 0 sins .
+SFX C 0 0 .
