@@ -18,10 +18,10 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
   </registration>
  
   <publisher>
-    <name xlink:href="http://openoffice.is"
-    lang="is">OpenOffice.is hópurinn</name>
-    <name xlink:href="http://openoffice.is	" 
-    lang="en">The OpenOffice.is group</name>
+    <name xlink:href="http://github.com/stebbiv"
+    lang="is">Stefán Vignir Skarphéðinsson</name>
+    <name xlink:href="http://github.com/stebbiv" 
+    lang="en">Stefán Vignir Skarphéðinsson</name>
   </publisher>
  
   <release-notes>
