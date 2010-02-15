@@ -1,13 +1,14 @@
-46
-vinna/C
-sókn/C
-hani/A
-krummi/A
-hundur/A
+47
+Konni/A p:noun
+vinna/C p:noun
+sókn/C p:noun
+hani/A p:noun
+krummi/A p:noun
+hundur/A p:noun
 svín
-hestur/A
-mús/C
-tittlingur/A
+hestur/A p:noun
+mús/C p:noun
+tittlingur/A p:noun
 gala
 krunka
 gelta
@@ -15,33 +16,38 @@ hrína
 geggja
 tísta
 syngja
-mundur/A
-dís/C
-banani/A
-meri/C
-öðlingur/A
-þróun/C
-kona/C
-garður/A
+mundur/A p:noun
+dís/C p:noun
+banani/A p:noun
+meri/C p:noun
+öðlingur/A p:noun
+þróun/C p:noun
+kona/C p:noun
+garður/A p:noun
 að
-koma/C
+koma/C p:noun
 koma
 rugl
-fugl
+fugl/A p:noun
 félag
 þú
-hersir/A
-api/A
-afi/A
-akkur/A
+hersir/A p:noun
+api/A p:noun
+afi/A p:noun
+akkur/A p:noun
 asni/F
-holta
+holt
 vörðu
-heiði
+heiði/C p:noun
 vegur
 verk
-maður/A
-skúr/A
-guð/A
-kerling/C
-bókun/C
+maður/A p:noun
+skúr/A p:noun
+guð/A p:noun
+kerling/C p:noun
+bókun/C p:noun
+mamma/C p:noun
+
+konnanna/Z
+konna/Z
+bananunum/Z

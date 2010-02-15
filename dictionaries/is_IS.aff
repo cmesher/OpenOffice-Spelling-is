@@ -2,6 +2,9 @@ SET UTF-8
 TRY nairesðtuglmkfhvoþábíibpúéóxýæzwcqNAIRESTUGLMKFHVOÞÁBÍIBPÚEÓXÝÆZWCQ
 LANG is_IS
 
+NOSUGGEST X
+FORBIDDENWORD Z
+
 #Útskiptingar á stöfum
 MAP 4
 MAP oö
@@ -61,7 +64,7 @@ PFX B a ö a
 PFX B banan banön banan
 
 #Greinir og beygingarform fyrir flest kvenkyns nafnorð
-SFX C Y 29
+SFX C Y 32
 SFX C 0 innar un
 SFX C 0 na i
 SFX C i ar i
@@ -81,20 +84,22 @@ SFX C 0 arinnar n
 SFX C 0 unum n
 SFX C 0 anna n
 SFX C 0 inni n
-SFX C 0 n [^n]
+SFX C 0 n [^nt]
 SFX C a u a
-SFX C a ur na
-SFX C a um na
-SFX C a na/D na
-SFX C a una na
-SFX C a unni na
-SFX C a unnar a
-SFX C a urnar na
-SFX C a unum na
-SFX C a nanna/D na
+SFX C a ur [mn]a
+SFX C a um [mn]a
+SFX C a na/D kona
+SFX C a una [mn]a
+SFX C a unni [mn]a
+SFX C a unnar [mn]a
+SFX C a urnar [mn]a
+SFX C a unum [mn]a
+SFX C a nanna ma
+SFX C a anna ma
+SFX C a nanna/D kona
 
 PFX D Y 1
-PFX D kon kven kon
+PFX D kon kven/Z kon	
 
 #Greinir og beygingarform fyrir flest hvorugkyns nafnorð
 SFX E Y 6
