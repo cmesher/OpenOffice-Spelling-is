@@ -1,0 +1,41 @@
+Íslensk réttritunarorðabók fyrir OpenOffice.org
+Copyright (C) 2010 Stefán Vignir Skarphéðinsson
+
+UM VERKEFNIÐ
+
+Þetta er tilraunaverkefni til að búa til réttritunarorðabók
+sem er algerlega byggð á samsettum orðum fyrir OpenOffice.org
+með Hunspell.
+
+Þetta ætti að koma í veg fyrir risavaxnar orðabækur sem byggja
+eingöngu á löngum orðalistum og gera ekki ráð fyrir samsettum
+orðum og orðskiptingum.
+
+Athugið að þessi útgáfa er ekki nothæf til daglegrar notkunar
+eins og staðan er í dag en er í stöðugri þróun.
+
+Eina lausnin í þessum geira er Púki frá Friðriki Skúlasyni HF
+en hann er aðeins fáanlegur fyrir Microsoft Office og telst
+ekki vera frjáls eða opinn hugbúnaður.
+
+UPPSETNING
+
+Til að bæta viðbótinni í OpenOffice.org skaltu sækja öll þau
+gögn sem eru í þessu skráasafni/möppu og þjappa það síðan yfir
+á ZIP-snið.
+Breyttu síðan .zip í skráarheitinu yfir í .oxt og opnaðu skránna
+síðan með OpenOffice.org.
+
+Þessi viðbót er frjáls hugbúnaður: þú getur dreift henni og/eða
+breytt samkvæmt skilmálum GNU Lesser General Public leyfið sem
+gefið er út af Frjálsu hugbúnaðarstofnuninni, annað hvort útg. 3
+af leyfinu, eða (ef þú vilt) öllum seinni útgáfum.
+
+Þessi viðbót er gefin út í von um það að hún geti verið nothæf
+en ÁN ALLRAR ÁBYRGÐAR; jafnvel án ábyrgðar á VIRKNI eða HÆFNI
+TIL ÁKVEÐINNAR NOTKUNNAR.  Lestu GNU Lesser General Public
+Leyfið fyrir frekari upplýsingar.
+
+Þú ættir að hafa fengið eintak af GNU Lesser General Public
+leyfinu ásamt þessari viðbót.  Ef ekki, skaltu skoða
+http://www.gnu.org/licenses/.

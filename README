@@ -1,6 +1,10 @@
 Icelandic dictionary for OpenOffice.org
 Copyright (C) 2010 Stefán Vignir Skarphéðinsson
 
+This is an EXPERIMENTAL project aimed at creating an Icelandic
+compound-based spelling dictionary for OpenOffice using
+Hunspell.
+
 This extension is free software: you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
 License as published by the Free Software Foundation, either
