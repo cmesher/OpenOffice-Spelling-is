@@ -10,16 +10,21 @@ MAP tþ
 MAP dð
 
 #Algengt stafarugl
-REP 6
+REP 10
 REP é je
 REP je é
 REP ý í
 REP í ý
 REP y i
 REP i y
+REP n nn
+REP nn n
+REP ö u
+REP u ö
 
-#Greinir og beygingarform fyrir karlkyns nafnorð
-SFX A Y 26
+#Greinir og beygingarform fyrir flest karlkyns nafnorð í eintölu
+SFX A Y 31
+SFX A 0 inn [^i]
 SFX A ur 0 ur
 SFX A ur i ur
 SFX A ur s ur
@@ -29,41 +34,74 @@ SFX A ur num ur
 SFX A ur inum ur
 SFX A ur sins ur
 SFX A ur ar ur
-SFX A ur a/UW ur
-SFX A ur um ur
 SFX A ur arnir ur
 SFX A ur ana ur
-SFX A ur unum ur
 SFX A ur anna ur
-SFX A i a i
-SFX A i ann i
-SFX A i anum i
-SFX A i ans i
-SFX A i ar i
-SFX A i arnir i
-SFX A i ana i
-SFX A 0 nn i
-SFX A 0 inn [^n]
+SFX A ur unum ur
+SFX A ur a ur
+SFX A ur um ur
+SFX A ur s ur
 SFX A r 0 ir
 SFX A r s ir
+SFX A r num ir
+SFX A r sins ir
+SFX A i inn i
+SFX A i ans i
+SFX A i a i
+SFX A i ar i
+SFX A i um/B i
+SFX A i arnir i
+SFX A i ana i
+SFX A i anna i
+SFX A i unum/B i
+SFX A i ann i
 
-#Greinir og beygingarform fyrir kvenkyns nafnorð
-SFX B Y 9
-SFX B 0 ar .
-SFX B 0 in .
-SFX B 0 ina .
-SFX B 0 inni .
-SFX B 0 innar .
-SFX B 0 ir .
-SFX B 0 um .
-SFX B 0 a .
-SFX B 0 irnar .
+PFX B Y 2
+PFX B a ö a
+PFX B banan banön banan
 
-#Greinir og beygingarform fyrir hvorugkyns nafnorð
-SFX C Y 6
-SFX C 0 ið .
-SFX C 0 i .
-SFX C 0 s .
-SFX C 0 inu .
-SFX C 0 sins .
-SFX C 0 0 .
+#Greinir og beygingarform fyrir flest kvenkyns nafnorð
+SFX C Y 29
+SFX C 0 innar un
+SFX C 0 na i
+SFX C i ar i
+SFX C 0 in [^a]
+SFX C i inni i
+SFX C i um i
+SFX C i a i
+SFX C i arnar i
+SFX C i arinnar i
+SFX C i anna i
+SFX C i unum i
+SFX C 0 ar n
+SFX C 0 ina n
+SFX C 0 ir n
+SFX C 0 um n
+SFX C 0 arinnar n
+SFX C 0 unum n
+SFX C 0 anna n
+SFX C 0 inni n
+SFX C 0 n [^n]
+SFX C a u a
+SFX C a ur na
+SFX C a um na
+SFX C a na/D na
+SFX C a una na
+SFX C a unni na
+SFX C a unnar a
+SFX C a urnar na
+SFX C a unum na
+SFX C a nanna/D na
+
+PFX D Y 1
+PFX D kon kven kon
+
+#Greinir og beygingarform fyrir flest hvorugkyns nafnorð
+SFX E Y 6
+SFX E 0 ið .
+SFX E 0 i .
+SFX E 0 s .
+SFX E 0 inu .
+SFX E 0 sins .
+SFX E 0 0 .
+
