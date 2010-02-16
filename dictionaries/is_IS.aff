@@ -4,6 +4,7 @@ LANG is_IS
 
 NOSUGGEST X
 FORBIDDENWORD Z
+COMPLEXPREFIXES Y
 
 #Útskiptingar á stöfum
 MAP 4
@@ -25,88 +26,36 @@ REP nn n
 REP ö u
 REP u ö
 
-#Greinir og beygingarform fyrir flest karlkyns nafnorð í eintölu
-SFX A Y 31
-SFX A 0 inn [^i]
-SFX A ur 0 ur
-SFX A ur i ur
-SFX A ur s ur
-SFX A 0 inn ur
-SFX A ur inn ur
-SFX A ur num ur
-SFX A ur inum ur
-SFX A ur sins ur
-SFX A ur ar ur
-SFX A ur arnir ur
-SFX A ur ana ur
-SFX A ur anna ur
-SFX A ur unum ur
-SFX A ur a ur
-SFX A ur um ur
-SFX A ur s ur
-SFX A r 0 ir
-SFX A r s ir
-SFX A r num ir
-SFX A r sins ir
-SFX A i inn i
-SFX A i ans i
-SFX A i a i
-SFX A i ar i
-SFX A i um/B i
-SFX A i arnir i
-SFX A i ana i
-SFX A i anna i
-SFX A i unum/B i
-SFX A i ann i
+#Kvenkyns nafnorð sem beygjast -a, -u í eintölu
+SFX A Y 1
+SFX A a u a
 
-PFX B Y 2
-PFX B a ö a
-PFX B banan banön banan
+#Karlkyns nafnorð í eintölu sem enda á i,
+#beygjast -i -a í eintölu án greinis,
+#-inn, -ann, -anum, -anans í et. með greini,
+#-ar, -a, ö-num, -a í ft. án greinis
+#-arnir, -ana, ö-nunum, -anna í ft. með greini
+SFX B Y 9
+SFX B i a i
+SFX B i inn i
+SFX B i ann i
+SFX B i anum i
+SFX B i anns i
+SFX B i arnir i
+SFX B i ana i
+SFX B i unum/C i
+SFX B i anna i
 
-#Greinir og beygingarform fyrir flest kvenkyns nafnorð
-SFX C Y 32
-SFX C 0 innar un
-SFX C 0 na i
-SFX C i ar i
-SFX C 0 in [^a]
-SFX C i inni i
-SFX C i um i
-SFX C i a i
-SFX C i arnar i
-SFX C i arinnar i
-SFX C i anna i
-SFX C i unum i
-SFX C 0 ar n
-SFX C 0 ina n
-SFX C 0 ir n
-SFX C 0 um n
-SFX C 0 arinnar n
-SFX C 0 unum n
-SFX C 0 anna n
-SFX C 0 inni n
-SFX C 0 n [^nt]
-SFX C a u a
-SFX C a ur [mn]a
-SFX C a um [mn]a
-SFX C a na/D kona
-SFX C a una [mn]a
-SFX C a unni [mn]a
-SFX C a unnar [mn]a
-SFX C a urnar [mn]a
-SFX C a unum [mn]a
-SFX C a nanna ma
-SFX C a anna ma
-SFX C a nanna/D kona
+SFX C Y 2
+PFX C banan banön banan
+PFX C han hön han
 
-PFX D Y 1
-PFX D kon kven/Z kon	
-
-#Greinir og beygingarform fyrir flest hvorugkyns nafnorð
-SFX E Y 6
-SFX E 0 ið .
-SFX E 0 i .
-SFX E 0 s .
-SFX E 0 inu .
-SFX E 0 sins .
-SFX E 0 0 .
-
+# Karlkyns nafnorð í fleirtölu sem
+# beygjast -ar, n, ö-num án grenis
+# og -arnir, -ana, -ö-nunum, -anna
+SFX D Y 5
+SFX D i ar i is:plur
+SFX D i n i is:plur
+SFX D i arnir i is:plur
+SFX D i ana i is:plur
+SFX D i anna i is:plur
