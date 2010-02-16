@@ -49,13 +49,3 @@ SFX B i anna i
 SFX C Y 2
 PFX C banan banön banan
 PFX C han hön han
-
-# Karlkyns nafnorð í fleirtölu sem
-# beygjast -ar, n, ö-num án grenis
-# og -arnir, -ana, -ö-nunum, -anna
-SFX D Y 5
-SFX D i ar i is:plur
-SFX D i n i is:plur
-SFX D i arnir i is:plur
-SFX D i ana i is:plur
-SFX D i anna i is:plur
