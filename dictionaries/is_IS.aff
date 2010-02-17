@@ -2,19 +2,22 @@ SET UTF-8
 TRY nairesðtuglmkfhvoþábíibpúéóxýæzwcqNAIRESTUGLMKFHVOÞÁBÍIBPÚEÓXÝÆZWCQ
 LANG is_IS
 
-NOSUGGEST X
-FORBIDDENWORD Z
-COMPLEXPREFIXES Y
+COMPOUNDBEGIN U
+COMPOUNDMIDDLE V
+COMPOUNDEND W
+COMPOUNDPERMITFLAG P
 
-#Útskiptingar á stöfum
+FORBIDDENWORD Z
+
+#Stafarugl
 MAP 4
 MAP oö
 MAP eé
 MAP tþ
 MAP dð
 
-#Algengt stafarugl
-REP 10
+#Algengt atkvæðarugl
+REP 11
 REP é je
 REP je é
 REP ý í
@@ -25,29 +28,37 @@ REP n nn
 REP nn n
 REP ö u
 REP u ö
+REP kon kven
 
 #Kvenkyns nafnorð sem beygjast -a, -u í eintölu
-SFX A Y 1
-SFX A a u a
+SFX A Y 13
+SFX A a a/WP a
+SFX A a u/UWVP a
+SFX A a an/WP a
+SFX A a una/WP a
+SFX A a unni/WP a
+SFX A a unnar/WP a
+SFX A a ur/WP a
+SFX A a um/WP a
+SFX A a urnar/WP a
+SFX A a unum/WP a
+SFX A a anna/WP a
+SFX A a nanna/WP a
+SFX A a na/WP a
 
-#Karlkyns nafnorð í eintölu sem enda á i,
+#Karlkyns nafnorð sem enda á i í nefnifalli-ft,
 #beygjast -i -a í eintölu án greinis,
 #-inn, -ann, -anum, -anans í et. með greini,
 #-ar, -a, ö-num, -a í ft. án greinis
 #-arnir, -ana, ö-nunum, -anna í ft. með greini
-SFX B Y 10
-SFX B i a i
-SFX B i ar i
-SFX B i inn i
-SFX B i ann i
-SFX B i anum i
-SFX B i anns i
-SFX B i arnir i
-SFX B i ana/C i
-SFX B i unum/C i
-SFX B i anna i
-
-PFX C Y 3
-PFX C banan banön banan
-PFX C banan banan/Z banan
-PFX C han hön han
+SFX C Y 8
+SFX C i a i
+SFX C i ar i
+SFX C i inn i
+SFX C i ann i
+SFX C i anns i
+SFX C i arnir i
+SFX C i ana i
+SFX C i anna i
+SFX D Y 1
+SFX D um unum um
