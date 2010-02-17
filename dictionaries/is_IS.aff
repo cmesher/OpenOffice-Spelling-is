@@ -52,19 +52,14 @@ SFX A a unum/WP a
 SFX A a nanna/WP a
 SFX A a na/UWP a
 
-#Forskeyti
-#Dæmi: ó-, for-, aftur-, yfir-
-SFX B y 1
-SFX A 0 0/UP .
-
 #Karlkyns nafnorð sem enda á i í nefnifalli-ft,
 #beygjast -i -a í eintölu án greinis,
 #-inn, -ann, -anum, -anans í et. með greini,
 #-ar, -a, ö-num, -a í ft. án greinis
 #-arnir, -ana, ö-nunum, -anna í ft. með greini
-SFX C Y 8
-SFX C i i/WP i
-SFX C i a/UWP i
+SFX C Y 9
+SFX C 0 0/WP i
+SFX C i a/UVWP i
 SFX C i ar/WP i
 SFX C i inn/WP i
 SFX C i ann/WP i
