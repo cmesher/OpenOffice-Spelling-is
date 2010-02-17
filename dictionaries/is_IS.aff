@@ -35,7 +35,7 @@ REP kon kven
 #beygjast -a -u í eintölu án greinis,
 #-an, -una, unni, -unnar í eintölu með greini,
 #-ur, -um, -na í fleirtölu án greinis,
-#-urnar, -unum, -nanna
+#-urnar, -unum, -nanna í fleirtölu með greini
 SFX A Y 12
 SFX A a a/WP a
 SFX A a u/UWVP a
