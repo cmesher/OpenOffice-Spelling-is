@@ -31,8 +31,12 @@ REP ö u
 REP u ö
 REP kon kven
 
-#Kvenkyns nafnorð sem beygjast -a, -u í eintölu
-SFX A Y 13
+#Kvenkyns nafnorð sem enda á -a í nefnifalli-ft,
+#beygjast -a -u í eintölu án greinis,
+#-an, -una, unni, -unnar í eintölu með greini,
+#-ur, -um, -na í fleirtölu án greinis,
+#-urnar, -unum, -nanna
+SFX A Y 12
 SFX A a a/WP a
 SFX A a u/UWVP a
 SFX A a an/WP a
@@ -43,7 +47,6 @@ SFX A a ur/WP a
 SFX A a um/WP a
 SFX A a urnar/WP a
 SFX A a unum/WP a
-SFX A a anna/WP a
 SFX A a nanna/WP a
 SFX A a na/WP a
 
