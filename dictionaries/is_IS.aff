@@ -33,7 +33,7 @@ REP ö u
 REP u ö
 REP kon kven
 
-#Kvenkyns nafnorð sem enda á -a í nefnifalli-ft,
+#Kvenkyns nafnorð sem enda á -a í nefnifalli-et,
 #beygjast -a -u í eintölu án greinis,
 #-an, -una, unni, -unnar í eintölu með greini,
 #-ur, -um, -na í fleirtölu án greinis,
@@ -52,11 +52,34 @@ SFX A a unum/WP a
 SFX A a nanna/WP a
 SFX A a na/UWP a
 
-#Karlkyns nafnorð sem enda á i í nefnifalli-ft,
+#Flest hvorugkynsorð
+#Dæmi loft, æði, sæði, fífl
+SFX B Y 19
+SFX B 0 0/UVWP .
+SFX B 0 s/UVWP [^i]
+SFX B 0 ið/W [^i]
+SFX B 0 inu/WP [^i]
+SFX B 0 sins/WP .
+SFX B 0 um/WP [^i]
+SFX B 0 a/UVWP [^i]
+SFX B 0 in/WP [^i]
+SFX B 0 unum/WP [^i]
+SFX B 0 ana/WP [^i]
+SFX B 0 i/WP [^i]
+SFX B i s/UVWP i
+SFX B i ið/W i
+SFX B i nu/WP i
+SFX B i um/WP i
+SFX B i a/UVWP i
+SFX B i in/WP i
+SFX B i unum/WP i
+SFX B i ana/WP i
+
+#Karlkyns nafnorð sem enda á -i í nefnifalli-et,
 #beygjast -i -a í eintölu án greinis,
-#-inn, -ann, -anum, -anans í et. með greini,
-#-ar, -a, ö-num, -a í ft. án greinis
-#-arnir, -ana, ö-nunum, -anna í ft. með greini
+#-inn, -ann, -anum, -anns í et. með greini,
+#-ar, -a, a/ö-num, -a í ft. án greinis
+#-arnir, -ana, a/ö-nunum, -anna í ft. með greini
 SFX C Y 9
 SFX C 0 0/WP i
 SFX C i a/UVWP i
@@ -67,5 +90,106 @@ SFX C i anns/WP i
 SFX C i arnir/WP i
 SFX C i ana/WP i
 SFX C i anna/WP i
-SFX D Y 1
+SFX D Y 2
 SFX D um unum/WP um
+SFX D i unum/WP i
+
+#Karlkyns nafnorð sem enda á -ur í nefnifalli-et,
+#beygjast -. -i -s í eintölu án greinis og
+#-urinn, -inn, -inum, -sins í et. með greini
+#Dæmi: hestur, hrútur, maður, maðkur
+SFX E Y 7
+SFX E ur ur/WP ur
+SFX E ur 0/WP ur
+SFX E ur i/WP ur
+SFX E ur s/WVUP ur
+SFX E ur inn/WP ur
+SFX E ur inum/WP ur
+SFX E ur sins/WP ur
+
+#Karlkyns nafnorð sem enda á -ur eða ll í nefnifalli-et,
+#beygjast -ar -a -um -a í ft. án greinis
+#-arnir, -ana, -unum, -ana í ft. með greini
+#Dæmi: hestur, hrútur
+SFX F Y 12
+SFX F ur ar/WP ur
+SFX F ur a/WVUP ur
+SFX F ur um/WP ur
+SFX F ur arnir/WP ur
+SFX F ur ana/WP ur
+SFX F ur unum/WP ur
+SFX F ll ar/WP ll
+SFX F ll a/WVUP ll
+SFX F ll um/WP ll
+SFX F ll arnir/WP ll
+SFX F ll ana/WP ll
+SFX F ll unum/WP ll
+
+#Karlkyns nafnorð sem enda á -ll í nefnifalli-et,
+#beygjast -l -l -ls í eintölu án greinis,
+#-llinn, -linn, -lnum, -lsins í et. með greini
+#-lar, -la -lum, -la í ft. án greinis
+#-arnir, -ana, -unum, -ana í ft. með greini,
+#Dæmi: fíll, bíll, díll, síll
+SFX G Y 7
+SFX G 0 0/WP ll
+SFX G ll l/WVUP ll
+SFX G ll ls/WP ll
+SFX G ll llinn/WP ll
+SFX G ll linn/WP ll
+SFX G ll lnum/WP ll
+SFX G ll lsins/WP ll
+
+#Kvenkyns nafnorð sem enda á d
+#Dæmi: reynd, gleymd
+SFX H Y 12
+SFX H 0 0/WP d
+SFX H 0 ar/WVUP d
+SFX H 0 in/WP d
+SFX H 0 ina/WP d
+SFX H 0 inni/WP d
+SFX H 0 arinnar/WP d
+SFX H 0 ir/WP d
+SFX H 0 um/WP d
+SFX H 0 a/WP d
+SFX H 0 irnar/WP d
+SFX H 0 unum/WP d
+SFX H 0 anna/WP d
+
+#kvenkyns nafnorð sem enda á –un
+#Dæmi: stöðvun, unun, fróun
+SFX I Y 12
+SFX I 0 0/WVUP un
+SFX I un ar/WP un
+SFX I un in/WP un
+SFX I un ina/WP un
+SFX I un inni/WP un
+SFX I un innar/WP un
+SFX I un anir/WP un
+SFX I un unum/WP un
+SFX I un anna/WP un
+SFX I un anirnar/WP un
+SFX I un unum/WP un
+SFX I un anna/WP un
+
+#Kvenkyns sérnöfn og eintölu og tökuorð sem
+#enda á -a í nefnifalli og beygjast í -u.
+#Dæmi: Evrópa, Ítalía, Ameríka
+SFX J Y 2
+SFX J 0 0/WP a
+SFX J a u/WVUP a
+
+#Kvenkyns nafnorð sem enda á d í nf-et.
+#Dæmi: Reynd
+SFX K Y 11
+SFX K 0 0/WP .
+SFX K 0 ar .
+SFX K 0 in .
+SFX K 0 inni .
+SFX K 0 arinnar .
+SFX K 0 ir
+SFX K 0 um
+SFX K 0 a
+SFX K 0 irnar
+SFX K 0 unum
+SFX K 0 anna
